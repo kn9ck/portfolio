@@ -13,7 +13,7 @@ export default function Projects() {
             <>
               {projects.map((project) => {
                 return (
-                  <ProjectComp project={project} />
+                  <ProjectComp key={project.title} project={project} />
                 );
               })}
             </>

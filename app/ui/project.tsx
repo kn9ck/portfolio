@@ -9,11 +9,11 @@ export default function ProjectComp({ project }: { project: Project }) {
         <p className="mt-2 text-sm leading-normal">{project.description}</p>
         <ul className="mt-2 flex flex-wrap">
           {project.techStack.map((tech) => {
-            return (<li className="mr-1.5 mt-2">
-              <div className="flex items-center rounded-full bg-teal-400 px-3 py-1 text-xs font-medium leading-5 text-white">
+            return <li key={tech} className="mr-1.5 mt-2">
+              <div className="flex items-center rounded-full bg-primary-light px-3 py-1 text-xs font-medium leading-5 text-white">
                 {tech}
               </div>
-            </li>);
+            </li>;
           })}
         </ul>
       </div>

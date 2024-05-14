@@ -4,6 +4,7 @@ import SocialLinks from "./ui/social-links";
 import bg from '../public/lata.png';
 import About from "./ui/sections/about";
 import Projects from "./ui/sections/projects";
+import Education from "./ui/sections/education";
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
         </header>
       <main className="pt-24 lg:w-1/2 lg:py-24">
         <About />
+        <Education />
         <Projects />
       </main>
       </div>

@@ -14,7 +14,12 @@ const config: Config = {
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
         "bg-lata": "url('/public/lata.png')",
       },
+      colors: {
+      'primary-light': '#22d3ee',
+      'primary-dark': '#155e75',
+    }
     },
+
   },
   plugins: [],
 };
