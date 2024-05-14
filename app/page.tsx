@@ -8,8 +8,8 @@ import Projects from "./ui/sections/projects";
 export default function Home() {
   return (
     <div className="min-h-screen mx-auto max-w-screen-xl px-6 py-12 md:px-12 md:py-20 lg:px-24 lg:py-0">
-      <div className="lg:flex lg:justify-between lg:gap-4">
-        <header className="lg:sticky lg:top-0 lg:flex lg:max-h-screen lg:w-1/2 lg:flex-col lg:justify-between lg:py-24">
+      <div className="lg:flex lg:justify-between lg:gap-8 ">
+        <header className="rounded-md lg:bg-slate-100 lg:sticky lg:top-8 lg:bottom-15 lg:flex lg:max-h-screen lg:w-1/2 lg:flex-col lg:justify-between lg:py-20 lg:pl-14 lg:mt-8">
           <div>
             <h1 className="text-4xl font-bold tracking-tight text-black sm:text-5xl">Joseph Felix</h1>
             <h2 className="mt-3 text-lg font-medium tracking-tight text-black sm:text-xl">Software Developer</h2>
