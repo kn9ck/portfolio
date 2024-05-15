@@ -9,7 +9,7 @@ export const projects = [
   },
   {
     title: 'Effort Logger',
-    description: 'Led a team in designing and building a robot and along with developing an algorithm in MATLAB in which the robot finds the route it must take to pick up/drop off a given object within a maze with added functionalities such as detecting and stopping at designated stop signs and a claw system.',
+    description: 'Worked with a team of five to develop an application in Java that allows an employee to log their efforts for the current work day. This ttored data is used at later times when estimating the effort needed for future projects.',
     techStack: ['Java', 'JavaFX'],
   },
   {
