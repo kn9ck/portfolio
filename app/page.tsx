@@ -1,16 +1,14 @@
 import Image from "next/image";
 import NavBar from "./ui/navbar";
 import SocialLinks from "./ui/social-links";
-import bg from '../public/lata.png';
 import About from "./ui/sections/about";
 import Projects from "./ui/sections/projects";
 import Education from "./ui/sections/education";
-import ThemeButton from "./ui/ThemeButton";
 import ThemeSwitch from "./ui/ThemeSwitch";
 
 export default function Home() {
   return (
-    <div className="text-black dark:text-white bg-white dark:bg-black  min-h-screen mx-auto max-w-screen-xl px-6 py-12 md:px-12 md:py-20 lg:px-24 lg:py-0">
+    <div className="text-black dark:text-white  min-h-screen mx-auto max-w-screen-xl px-6 py-12 md:px-12 md:py-20 lg:px-24 lg:py-0">
       <div className="lg:flex lg:justify-between lg:gap-8 ">
         <header className="rounded-md lg:bg-slate-100 dark:lg:bg-zinc-950 lg:sticky lg:top-8 lg:bottom-15 lg:flex lg:max-h-screen lg:w-1/2 lg:flex-col lg:justify-between lg:py-20 lg:pl-14 lg:mt-8">
           <div>
